@@ -1,8 +1,8 @@
 
 import React from 'react';
-import './business.css';
+import './Business.css';
 
-//business component
+
 const business = {
     imageSrc: 'https://s3.amazonaws.com/codecademy-content/programs/react/ravenous/pizza.jpg',
   name: 'MarginOtto Pizzeria',
@@ -15,12 +15,13 @@ const business = {
   reviewCount: 90
 }
 
+//business component
 class Business extends React.Component{
     render(){
         return(
             <div className="Business">
                 <div className="image-container">
-                    <img src='https://s3.amazonaws.com/codecademy-content/programs/react/ravenous/pizza.jpg' alt=''/>
+                    {business.imageSrc}
                 </div>
                 <h2>{business.name}</h2>
                 <div className="Business-information">
