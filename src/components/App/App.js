@@ -1,12 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import BusinessList from '../BusinessList/BusinessList';
 import SearchBar from '../SearchBar/SearchBar';
 
 function App() {
   return (
-  <div class="App">
+  <div className="App">
     <h1>Eateries</h1>
     <SearchBar />
     <BusinessList />
