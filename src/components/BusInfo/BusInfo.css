@@ -1,0 +1,10 @@
+
+.foot{
+    flex: display;
+    text-align: center;
+    background-color: orange
+}
+.foot :first-child{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10em; 
+}
