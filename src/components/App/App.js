@@ -7,6 +7,7 @@ import BusInfo from '../BusInfo/BusInfo';
 function App() {
   return (
   <div className="App">
+    <p><img src="./ravenous_favicon.ico" alt="icon" /></p>
     <h1>Eateries</h1>
     <SearchBar />
     <BusinessList />

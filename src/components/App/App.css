@@ -8,6 +8,12 @@ html {
   html {
     font-size: 15px;
   }
+  img {
+    width: 3%;
+    
+    float: left;
+    
+  }
 }
 
 input:focus {
@@ -22,10 +28,12 @@ input:focus {
   justify-content: center;
   overflow: hidden;
   background: #000;
-}
+ }
 
-.image-container img {
-  width: 100%;
+ img {
+  width: 5%; 
+  float: left;
+  
 }
 
 /* App Styles */
@@ -34,7 +42,7 @@ input:focus {
   font-family: 'Work Sans', sans-serif;
 }
 
-h1 {
+h1 {  
   padding: .66rem 0rem;
   text-align: center;
   background-color: #cca353;
