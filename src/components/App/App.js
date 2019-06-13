@@ -24,7 +24,7 @@ function App() {
     <p><img src="./ravenous_favicon.ico" className="logo" alt="icon" /></p>
     <h1>Eateries</h1>
     <SearchBar />
-    <BusinessList />
+    <BusinessList businesses={businesses}/>
     <BusInfo />
   </div>
   )
