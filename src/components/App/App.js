@@ -5,7 +5,7 @@ import SearchBar from '../SearchBar/SearchBar';
 import BusInfo from '../BusInfo/BusInfo';
 
 const business = {
-  imageSrc: 'pizza.jpg',
+imageSrc: 'pizza.jpg',
 name: 'MarginOtto Pizzeria',
 address: '1010 Paddington Way',
 city: 'Flavortown',
