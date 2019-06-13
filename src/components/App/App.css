@@ -26,10 +26,13 @@ input:focus {
   flex-direction: column;
   justify-content: center;
   overflow: hidden;
-  background: #000;
+  background: #00fff0;
  }
 
- img {
+.image-container img{
+  width: 100%;
+}
+ .logo {
   width: 5%; 
   float: left;
   
