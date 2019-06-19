@@ -19,6 +19,11 @@ reviewCount: 90
 const businesses = [business, business, business, business, business, business];
 
 function App() {
+
+  searchYelp(term, location, sortBy){
+    console.log(`Searching Yelp with ${term}, ${location}, ${sortBy}`);
+  }
+
   return (
   <div className="App">
     <p><img src="./ravenous_favicon.ico" className="logo" alt="icon" /></p>
