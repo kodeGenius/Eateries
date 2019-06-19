@@ -32,10 +32,10 @@ class SearchBar extends React.Component{
         });
     }
     handleTermChange(event){
-        this.setState({term: event.target.value})
+        this.setState({term: event.target.value});
     }
     handleLocationChange(event){
-        this.setState({})
+        this.setState({locattion: event.target.value});
     }
     
     renderSortByOptions(){
