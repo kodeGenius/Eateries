@@ -19,6 +19,7 @@ class SearchBar extends React.Component{
         }
         this.handleSortByChange = this.handleSortByChange.bind(this);
 		this.handleTermChange = this.handleTermChange.bind(this);
+		this.handleLocationChange = this.handleLocationChange.bind(this);
 		
 
     }
