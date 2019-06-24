@@ -27,7 +27,7 @@ class App extends React.Component{
     return (
       <div className="App">
         <p><img src="./ravenous_favicon.ico" className="logo" alt="icon" /></p>
-        <h1>Eateries</h1>
+        <h1>Eateries for Food</h1>
         <SearchBar searchYelp={this.searchYelp} />
         <BusinessList businesses={businesses}/>
         <BusInfo />
