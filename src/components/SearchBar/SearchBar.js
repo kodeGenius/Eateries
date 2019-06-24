@@ -18,6 +18,7 @@ class SearchBar extends React.Component{
             'Most Viewed': 'review_count'
         }
         this.handleSortByChange = this.handleSortByChange.bind(this);
+		this.handleTermChange = this.handleTermChange.bind(this);
 		
 
     }
