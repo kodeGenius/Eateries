@@ -39,7 +39,7 @@ class SearchBar extends React.Component{
         this.setState({term: event.target.value});
     }
     handleLocationChange(event){
-        this.setState({locattion: event.target.value});
+        this.setState({location: event.target.value});
     }
     
     handleSearch(event){
@@ -66,7 +66,7 @@ class SearchBar extends React.Component{
                 <input onChange={this.handleLocationChange} placeholder="Where?" />
             </div>
             <div className="SearchBar-submit">
-                <a  onClick={this.handleSearch} href =" ">Let's Go</a>
+                <a onClick={this.handleSearch} href =" ">Let's Go</a>
             </div>
         </div>
         )
