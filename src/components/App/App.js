@@ -18,21 +18,19 @@ reviewCount: 90
 
 const businesses = [business, business, business, business, business, business];
 
-function App() {
+class App extends React.Component{
 
-  searchYelp(term, location, sortBy){
-    console.log(`Searching Yelp with ${term}, ${location}, ${sortBy}`);
+  render(){
+    return (
+      <div className="App">
+        <p><img src="./ravenous_favicon.ico" className="logo" alt="icon" /></p>
+        <h1>Eateries</h1>
+        <SearchBar />
+        <BusinessList businesses={businesses}/>
+        <BusInfo />
+      </div>
+    )
   }
-
-  return (
-  <div className="App">
-    <p><img src="./ravenous_favicon.ico" className="logo" alt="icon" /></p>
-    <h1>Eateries</h1>
-    <SearchBar />
-    <BusinessList businesses={businesses}/>
-    <BusInfo />
-  </div>
-  )
 }
 
 export default App;
