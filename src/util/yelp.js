@@ -9,5 +9,6 @@ const Yelp ={
             }
         }
         )
+        .then()
     }
 }
