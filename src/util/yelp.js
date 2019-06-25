@@ -12,5 +12,8 @@ const Yelp ={
         .then(response =>{
             return response.json();
         })
+        .then(jsonResponse =>{
+            
+        })
     }
 }
