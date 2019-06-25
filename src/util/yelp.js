@@ -9,6 +9,8 @@ const Yelp ={
             }
         }
         )
-        .then()
+        .then(response =>{
+            return response.json();
+        })
     }
 }
