@@ -20,6 +20,12 @@ reviewCount: 90
 const businesses = [business, business, business, business, business, business];
 
 class App extends React.Component{
+  constructor(props){
+		super(props);
+		this.state = {
+		  businesses: []
+		};
+		this.searchYelp = this.searchYelp.bind(this);
 
   searchYelp(term, location, sortBy){
     Yelp.searchYelp(term, location, sortBy).then(businesses => {
