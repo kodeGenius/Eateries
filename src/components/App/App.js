@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import BusinessList from '../BusinessList/BusinessList';
 import SearchBar from '../SearchBar/SearchBar';
-import Yelp from '../util/yelp';
 import BusInfo from '../BusInfo/BusInfo';
 
 /*const business = {
